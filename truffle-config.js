@@ -5,7 +5,10 @@ const gasPrice = process.env['GAS_PRICE'];
 const privateKey = process.env['PRIVATE_KEY'];
 const infuraProjectId = process.env['INFURA_PROJECT_ID'];
 
+contracts_build_directory: './build/contracts',
+
 module.exports = {
+  contracts_build_directory: './build/contracts',
   compilers: {
     solc: {
       version: '0.6.12',

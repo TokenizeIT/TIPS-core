@@ -18,9 +18,9 @@
   "homepage": "http://TokenizeIT.github.io/TIPS-core",
   "scripts": {
     "predeploy": "npm run build",
-    "deployer": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "truffle compile",
-    "deploy": "truffle migrate",
+    "maindeploy": "truffle migrate",
     "deploy:mainnet": "truffle migrate --network mainnet",
     "deploy:ropsten": "truffle migrate --network ropsten",
     "deploy:rinkeby": "truffle migrate --network rinkeby",
