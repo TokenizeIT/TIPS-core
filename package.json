@@ -15,7 +15,7 @@
     "truffle": "^5.1.66",
     "truffle-flattener": "^1.5.0"
   },
-  "homepage": "http://TokenizeIT.github.io/IPS-core",
+  "homepage": "http://TokenizeIT.github.io/TIPS-core",
   "scripts": {
     "predeploy": "npm run build",
     "deployer": "gh-pages -d build",
