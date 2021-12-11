@@ -1,0 +1,8 @@
+.loading-spin {
+  display: flex;
+  justify-content: center;
+
+  > div {
+    position: absolute;
+  }
+}
